@@ -1,4 +1,4 @@
-package org.middleware.middleadaptor;
+package org.ma.cache;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

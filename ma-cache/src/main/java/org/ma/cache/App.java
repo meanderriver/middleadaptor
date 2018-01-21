@@ -1,4 +1,4 @@
-package org.middleware.middleadaptor;
+package org.ma.cache;
 
 /**
  * Hello world!
