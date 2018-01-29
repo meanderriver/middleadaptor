@@ -27,6 +27,16 @@
 				<version>3.8.1</version>
 				<scope>test</scope>
 			</dependency>
+			<dependency>
+			  <groupId>org.middleware</groupId>
+	          <artifactId>ma-message</artifactId>
+	          <version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+			  <groupId>org.middleware</groupId>
+	          <artifactId>ma-message-kafka</artifactId>
+	          <version>0.0.1-SNAPSHOT</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -35,5 +45,8 @@
 		<module>memcache</module>
 		<module>ma-message</module>
 		<module>ma-cache</module>
+		<module>ma-message-kafka</module>
+		<module>ma-message-rocket</module>
+		<module>ma-message-test</module>
 	</modules>
 </project>
